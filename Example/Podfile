@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LDCDownLoadLib_Example' do
+  pod 'LDCDownLoadLib', :path => '../'
+
+  target 'LDCDownLoadLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
